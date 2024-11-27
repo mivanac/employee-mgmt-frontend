@@ -14,9 +14,18 @@ const Header = () => {
           </Navbar.Brand>
           <Nav className="ml-auto">
             <Nav.Link as={Link} to="/" className="nav-link">
+              Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="/departments" className="nav-link">
+              Departments
+            </Nav.Link>
+            <Nav.Link as={Link} to="/add-department" className="nav-link">
+              Post Department
+            </Nav.Link>
+            <Nav.Link as={Link} to="/employees" className="nav-link">
               Employees
             </Nav.Link>
-            <Nav.Link as={Link} to="/employee" className="nav-link">
+            <Nav.Link as={Link} to="/add-employee" className="nav-link">
               Post Employee
             </Nav.Link>
           </Nav>
