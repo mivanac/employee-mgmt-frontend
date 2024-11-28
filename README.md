@@ -69,3 +69,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # employee-mgmt-frontend
+
+To build docker image run command:
+
+# docker build -t react-app:1.0 .
+
+from current folder. Now to run app on localhost:8000, execute docker run command:
+
+# docker run -dp 8000:3000 --name react-frontend react-app:1.0
+
